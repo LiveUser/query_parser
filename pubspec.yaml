@@ -1,0 +1,19 @@
+name: query_parser
+description: Parse URL to obtain both the URL path as a String and the QueryString as a Map.
+version: 1.0.0+4
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hex_alpha:
+  path_provider:
+  async_foreach: ^0.0.3
+  raw_context: ^1.0.0+1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
